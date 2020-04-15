@@ -1,9 +1,10 @@
 # Reproduction Steps
 
 1. Clone the repo.
-2. `npm run dev`
-3. Open `http://localhost:3000/`
-4. Notice how the nested dynamic import at the bottom displays an error. The relevant code is on lines 36 to 42 of src/routes/index.svelte.
+2. `npm install`
+3. `npm run dev`
+4. Open `http://localhost:3000/`
+5. Notice how the nested dynamic import at the bottom displays an error. The relevant code is on lines 2 to 7 of src/routes/index.svelte.
 
 # sapper-template
 
